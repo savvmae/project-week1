@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  background: #F2F1E8;
+  color: #131511;
+
+}
+.nav-bar-wrapper {
+  position: fixed;
+  background: #FFFFFF;
+  color:#2B2F26;
+  height: 80px;
+  width: 100%;
+  overflow: auto;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+}
+#logo{
+  position: absolute;
+  left: 0px;
+  bottom: 15px;
+}
+#logo img {
+  width: 50%;
+}
+.nav-bar {
+  padding-top: 30px;
+}
+.hover-fade {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 1s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+a:hover {
+  color:#CD5D67;
+}
+.active {
+  color: #968772;
+}
+.not-active {
+  color: #2B2F26;
+}
+.nav-bar * {
+  display: inline-block;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+div {
+  overflow: hidden;
+}
+main {
+  margin-left: 125px;
+  margin-right: 125px;
+  width: 1280px;
+}
+.heading-txt {
+  font-size: 70px;
+  text-align: center;
+  margin-bottom: 0px;
+  font-weight: 400;
+  font-family: 'Merriweather', serif;
+  padding: 150px;
+  padding-bottom: 50px;
+}
+.inline-link:hover {
+  color: #967343;
+}
+.room-to-grow {
+  background-image: url('../images/background-3.jpg');
+  background-size: cover;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  padding: 50px;
+  padding-top: 100px;
+}
+#birdhouse {
+  width: 125px;
+  height: 100px;
+  float:left;
+  margin: 20px;
+}
+.content-txt {
+  line-height: 2em;
+  font-family: 'Merriweather', serif;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.content-txt a {
+  color: #968772;
+}
+.quote-div {
+  margin-left: 50px;
+  margin-right: 50px;
+  border-left: 1px solid gray;
+  line-height: 2em;
+  font-family: 'Merriweather', serif;
+  padding-left: 20px;
+  font-size: 20px;
+  line-height: 3em;
+  font-weight: lighter;
+  font-style: italic;
+}
+.sub-header-txt {
+  font-size: 40px;
+  font-family: font-family: 'Merriweather', serif;
+  margin-left: 50px;
+  padding-top: 50px;
+  font-weight: lighter;
+}
+.bottom-sec {
+  margin-left: 125px;
+  margin-right: 125px;
+  margin-top: 50px;
+}
+.facilities {
+  width: 83%;
+  display: inline-block;
+}
+.monthly-plans {
+  display: inline-block;
+  width: 100%;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+table {
+  width: 50%;
+  border-collapse: collapse;
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-top: 20px;
+}
+table td {
+  border: .5px solid grey;
+  padding: 15px;
+}
+.sm-image {
+  display: block;
+  width: 150px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+.img-w-txt {
+  display: inline-block;
+  font-size: 11px;
+  width: 10%;
+}
+table tbody tr:nth-child(odd){
+  background-color: #F2EADD;
+}
+thead {
+  text-align: center;
+}
+footer {
+  height: 75px;
+  width: 100%;
+  background:#2B2F27;
+  color: white;
+  text-align: left;
+  padding-left: 20px;
+  line-height: 75px;
+  font-family: 'Merriweather', serif;
+}

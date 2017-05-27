@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  background: url('../images/background-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #131511;
+}
+.nav-bar-wrapper {
+  position: fixed;
+  background: #FFFFFF;
+  color:#2B2F26;
+  height: 80px;
+  width: 100%;
+  overflow: auto;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+}
+#logo{
+  position: absolute;
+  left: 0px;
+  bottom: 15px;
+}
+#logo img {
+  width: 50%;
+}
+.nav-bar {
+  padding-top: 30px;
+}
+.hover-fade {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    overflow: hidden;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 1s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+}
+a:hover {
+  color:#CD5D67;
+}
+.active {
+  color: #968772;
+}
+.not-active {
+  color: #2B2F26;
+}
+.nav-bar * {
+  display: inline-block;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+div {
+  overflow: hidden;
+}
+.form {
+  position: absolute;
+  z-index: 1;
+  top: 25%;
+  left: 25%;
+  height: 400px;
+  width: 50%;
+  background: white;
+}
+.form-main-head {
+  font-family:'Merriweather', serif;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: center;
+  padding-top: 25px;
+}
+.form-sub-head {
+  font-family:'Merriweather', serif;
+  font-size: 24px;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 15px;
+}
+form {
+  margin-top: 50px;
+  text-align: left;
+  height: 200px;
+}
+input[type=text] {
+  padding: 10px;
+  border: none;
+  border-bottom: solid 2px #968772;
+  transition: border 0.3s;
+  width: 90%;
+  font-size: 20px;
+  margin-left: 20px;
+  font-family:'Merriweather', serif;
+  font-weight: lighter;
+}
+input[type=email] {
+  margin-left: 20px;
+  padding: 10px;
+  border: none;
+  border-bottom: solid 2px #968772;
+  transition: border 0.3s;
+  width: 90%;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family:'Merriweather', serif;
+  font-weight: lighter;
+}
+input[type=email]:focus {
+  outline: none;
+  border: none;
+  border-bottom: solid 2px #967343;
+  font-family:'Merriweather', serif;
+}
+input[type=text]:focus {
+  outline: none;
+  border: none;
+  border-bottom: solid 2px #967343;
+  font-family:'Merriweather', serif;
+}
+.submit {
+  background-color: #968774;
+  color: #F2F1E8;
+  position: relative;
+  top: 20%;
+  left: 40%;
+  width: 150px;
+  height: 60px;
+}
+input[type=submit]:hover{
+  background-color: #967343;
+  color: #FFFFFF;
+}
+input[type=submit] {
+  border:none;
+  font-family:'Roboto', serif;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 60px;
+}
